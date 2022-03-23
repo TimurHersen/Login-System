@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #E1AD01;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.loginsystem.LoggedInController">
+   <children>
+      <Button fx:id="button_viewshift" layoutX="29.0" layoutY="332.0" mnemonicParsing="false" style="-fx-background-color: #000000; -fx-cursor: hand;" text="View current shift" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="button_clockinout" layoutX="29.0" layoutY="277.0" mnemonicParsing="false" style="-fx-background-color: #000000; -fx-cursor: hand;" text="Clock in/out" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="22.0" />
+         </font>
+      </Button>
+      <Label fx:id="label_welcome" layoutX="14.0" layoutY="14.0" text="Welcome, ">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_customusername" layoutX="95.0" layoutY="14.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="button_logout" layoutX="481.0" layoutY="332.0" mnemonicParsing="false" style="-fx-background-color: #000000; -fx-cursor: hand;" text="Logout" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="22.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
